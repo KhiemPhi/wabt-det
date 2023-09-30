@@ -1,0 +1,17 @@
+vis
+weights
+data/__pycache__
+loss_fn/__pycache__
+modeling/__pycache__
+utils/__pycache__
+vis_base
+vis
+*.zip
+*.jpg
+*.png
+*.txt
+*.vscode/
+results/
+best_ckpts/
+lightning_logs/
+sem-eval/
