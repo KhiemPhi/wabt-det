@@ -35,6 +35,7 @@ python -u dataset/collect.py --api_key [your Youtube API key] --topic [the topic
 More instructions on how to set up a YouTube API-V3 API key can be found in this following tutorial https://www.youtube.com/watch?v=th5_9woFJmk
 
 annotations_1645.csv contains all 3 annotators annotations for TQ-YT
+
 twitter_data_1204.csv contains all 3 annotators annotations for TQ-TW
 
 data_split contains the train,test,val split for TQ-YT and TQ-TW in seperate .csv files.
