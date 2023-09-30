@@ -44,7 +44,8 @@ Context Tuples are located in the context_json folder. If you would like to crea
 
 ## Directory Structure
 The expected directory structure: 
-    ```shell    
+    ```
+    .    
     └── root
         ├── best_ckpts
         ├── context_json
