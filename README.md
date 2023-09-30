@@ -42,30 +42,6 @@ data_split contains the train,test,val split for TQ-YT and TQ-TW in seperate .cs
 ## Context Tuples
 Context Tuples are located in the context_json folder. If you would like to create your own tuples, follow the same json structure with your own data. These tuples are for our best results. Your results are also summarized in this folder, specified by the -tp flag.
 
-### Directory Structure
-The expected directory structure: 
-    ```
-    .
-    └── BOP ROOT PATH/
-        ├── lmo   
-        ├── ycbv/
-        │   ├── models
-        │   ├── models_eval
-        │   ├── models_fine
-        │   ├── test
-        │   ├── train_pbr
-        │   ├── train_real
-        │   ├── ...               #(other files from BOP page)
-        │   ├── models_GT_color   #(from last step)
-        │   ├── train_pbr_GT      #(from last step)
-        │   ├── train_real_GT     #(from last step)
-        │   ├── test_GT           #(from last step)
-        │   ├── train_pbr_GT_v2   #(from last step, for symmetry aware training)
-        │   ├── train_real_GT_v2  #(from last step, for symmetry aware training)
-        │   └── test_GT_v2        #(from last step, for symmetry aware training)
-        └── tless
-    ```
-
 ## Training and Evaluation
 
 For quick evaluation, you can run the following command: 
