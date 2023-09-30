@@ -43,7 +43,16 @@ data_split contains the train,test,val split for TQ-YT and TQ-TW in seperate .cs
 ## Context Tuples
 Context Tuples are located in the context_json folder. If you would like to create your own tuples, follow the same json structure with your own data. These tuples are for our best results. Your results are also summarized in this folder, specified by the -tp flag.
 
+## Weights
+Weights can be downloaded at https://drive.google.com/file/d/1eSSWTklBER-oUdeMTYaW6WJVuGA0uSvV/view?usp=sharing
+
 ## Training and Evaluation
+
+Before running create a visualziation folder with: 
+
+```shell
+mkdir vis
+```
 
 For quick evaluation, you can run the following command: 
 
@@ -51,7 +60,7 @@ For quick evaluation, you can run the following command:
 bash test.sh
 ```
 
-This will allow you to view all test results in different text-files for the various F1-scores. The main.py script both trains the model and evalute the model on the test set each epoch. It automaticall registers the epoch with the best F1 results with the help of the PyTorch-Lightning wrappers.  Context tuples for testing are provided in the context_json folder. 
+This will allow you to view all test results in different text-files for the various F1-scores. The main.py script both trains the model and evalute the model on the test set each epoch. It automaticall registers the epoch with the best F1 results with the help of the PyTorch-Lightning wrappers.  Context tuples for testing are provided in the context_json folder. We also generate tSNE views of the test embeddings at folder called vis. 
 
 For training, you can run the commands in 
 

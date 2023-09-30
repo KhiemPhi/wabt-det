@@ -273,8 +273,7 @@ if __name__ == "__main__":
     parser.add_argument("-tw", "--twitter", action='store_true',
                         default=False, help="use twitter data")
     parser.add_argument("-w", "--weights", type=str, default="/data/kphi/best_ckpts/wabt-det-epoch=09-validation-f1=54.55-context no augments poly focal loss determinstic pairing.ckpt", help="path to weight")
-    parser.add_argument("-tp", "--tuple_path", type=str, default="context_json", help="path to weight")
-    
+    parser.add_argument("-tp", "--tuple_path", type=str, default="context_json", help="path to weight")    
     
     args = parser.parse_args()
     main(args)
