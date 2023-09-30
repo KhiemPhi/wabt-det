@@ -259,17 +259,17 @@ if __name__ == "__main__":
     parser.add_argument("-ep", "--epochs", type=int,
                         default=20, help="batch size to use")
     parser.add_argument("-c", "--context", action='store_true',
-                        default=False, help="Whether to fine-tune pre-trained models")   
+                        default=False, help="use context tuples")   
     parser.add_argument("-l", "--loss", type=str,  default="focal", help="type of loss to use")
     parser.add_argument("-sn", "--study_name", type=str, default="context-aug", help="name of test/train ran")
     parser.add_argument("-t", "--testing", action='store_true',
-                        default=False, help="Whether to test using pre-trained models")
+                        default=False, help="test using pre-trained models")
     parser.add_argument("-r", "--random", action='store_true',
-                        default=False, help="Whether to test using pre-trained models")
+                        default=False, help="use random tuples")
     parser.add_argument("-a", "--agnostic", action='store_true',
-                        default=False, help="Whether to test using pre-trained models")
+                        default=False, help="use topic agnostic testing and trining")
     parser.add_argument("-ti", "--title", action='store_true',
-                        default=False, help="Use title as context")   
+                        default=False, help="use title as context")   
     parser.add_argument("-tw", "--twitter", action='store_true',
                         default=False, help="use twitter data")
     parser.add_argument("-w", "--weights", type=str, default="/data/kphi/best_ckpts/wabt-det-epoch=09-validation-f1=54.55-context no augments poly focal loss determinstic pairing.ckpt", help="path to weight")

@@ -59,3 +59,9 @@ For training, you can run the commands in
 bash train.sh
 ```
 These will train two models for TQ-TW and TQ-YT and save all the randomly generated context tuples as well as the weights. Weights are stored in best_ckpts and a table of F1 results is stored in context_json by default. 
+
+To see all command line options, you can run:
+
+```shell
+python -u main.py -h
+```
