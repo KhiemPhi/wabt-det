@@ -45,25 +45,25 @@ Context Tuples are located in the context_json folder. If you would like to crea
 ## Directory Structure
 The expected directory structure: 
     ```
-    .    
-    └── root
-        ├── best_ckpts
-        ├── context_json
-        ├── data
-        ├── data_split
-        ├── LICENSE
-        ├── loss_fn
-        ├── modeling
-        ├── test.sh
-        ├── utils
-        ├── weights             
-        ├── dataset
-        ├── install.sh
-        ├── lightning_logs
-        ├── main.py
-        ├── README.md
-        ├── train.sh
-        └── vis
+    .
+    └── BOP ROOT PATH/
+        ├── lmo   
+        ├── ycbv/
+        │   ├── models
+        │   ├── models_eval
+        │   ├── models_fine
+        │   ├── test
+        │   ├── train_pbr
+        │   ├── train_real
+        │   ├── ...               #(other files from BOP page)
+        │   ├── models_GT_color   #(from last step)
+        │   ├── train_pbr_GT      #(from last step)
+        │   ├── train_real_GT     #(from last step)
+        │   ├── test_GT           #(from last step)
+        │   ├── train_pbr_GT_v2   #(from last step, for symmetry aware training)
+        │   ├── train_real_GT_v2  #(from last step, for symmetry aware training)
+        │   └── test_GT_v2        #(from last step, for symmetry aware training)
+        └── tless
     ```
 
 ## Training and Evaluation
