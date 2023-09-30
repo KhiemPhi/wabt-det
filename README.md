@@ -1,4 +1,4 @@
-# WABT-DET-CONTEXT
+# Whataboutims Detection with MINA (Mining Negatives with Attention)
 This is the official source code for **Detection and Dissection of Whataboutism Beyond ''Tu Quoque''**. 
 
 
