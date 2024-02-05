@@ -15,3 +15,4 @@ results/
 best_ckpts/
 lightning_logs/
 sem-eval/
+remove_column.py
