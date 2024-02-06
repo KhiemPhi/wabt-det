@@ -40,6 +40,10 @@ twitter_data_1204.csv contains all 3 annotators annotations for TQ-TW. Please ad
 
 data_split contains the train,test,val split for TQ-YT and TQ-TW in seperate .csv files.
 
+## Annotation Guidelines
+
+You can find our guidlines to annotation here: https://docs.google.com/document/d/1oiMEUX-gpK1hsz7kYC7hyiMUUaUOKOTErakwZv4_MJk/edit?usp=sharing
+
 ## Context Tuples
 Context Tuples are located in the context_json folder. If you would like to create your own tuples, follow the same json structure with your own data. These tuples are for our best results. Your results are also summarized in this folder, specified by the -tp flag.
 
